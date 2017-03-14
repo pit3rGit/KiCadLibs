@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1755T-3302E/DC
+D Stabilizator LDO 3.3V
+K Regulator 3.3V LDO
+F datasheet/mcp1755_s.pdf
+$ENDCMP
+#
+#End Doc Library
