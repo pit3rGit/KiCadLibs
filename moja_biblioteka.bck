@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVX373M
+D Zatrzask 3 stanowy D
+K Latch, zatrzask, 74
+F datasheet/74LVX373M.pdf
+$ENDCMP
+#
 $CMP MCP1755T-3302E/DC
 D Stabilizator LDO 3.3V
 K Regulator 3.3V LDO
