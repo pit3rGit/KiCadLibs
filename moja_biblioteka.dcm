@@ -6,6 +6,11 @@ K Latch, zatrzask, 74
 F datasheet/74LVX373M.pdf
 $ENDCMP
 #
+$CMP DHT22
+D Czujnik tempaertury i wilgotności 1-wire DHT22
+K DHT22, temp, RH
+$ENDCMP
+#
 $CMP MCP1755T-3302E/DC
 D Stabilizator LDO 3.3V
 K Regulator 3.3V LDO
