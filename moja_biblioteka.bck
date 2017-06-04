@@ -17,6 +17,11 @@ K Regulator 3.3V LDO
 F datasheet/mcp1755_s.pdf
 $ENDCMP
 #
+$CMP N-MOSFET
+D N-MOSFET
+K N-MOSFET
+$ENDCMP
+#
 $CMP P-MOSFET
 D P-MOSFET
 K P-MOSFET

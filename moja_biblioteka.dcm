@@ -17,6 +17,11 @@ K Regulator 3.3V LDO
 F datasheet/mcp1755_s.pdf
 $ENDCMP
 #
+$CMP MIC29302
+D Stabilizator LDO 3.3V
+K Regulator ADJ, LDO, 3A
+$ENDCMP
+#
 $CMP N-MOSFET
 D N-MOSFET
 K N-MOSFET
