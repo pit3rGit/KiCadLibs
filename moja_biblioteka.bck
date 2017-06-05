@@ -11,10 +11,25 @@ D Czujnik tempaertury i wilgotności 1-wire DHT22
 K DHT22, temp, RH
 $ENDCMP
 #
+$CMP GNIAZDO_MODULU_X
+D Connector, single row, 01x08, pin header
+K connector
+$ENDCMP
+#
+$CMP MBRB2535CTLT4G
+D Dual schottky diode, common cathode
+K diode
+$ENDCMP
+#
 $CMP MCP1755T-3302E/DC
 D Stabilizator LDO 3.3V
 K Regulator 3.3V LDO
 F datasheet/mcp1755_s.pdf
+$ENDCMP
+#
+$CMP MIC29302
+D Stabilizator LDO 3.3V
+K Regulator ADJ, LDO, 3A
 $ENDCMP
 #
 $CMP N-MOSFET
