@@ -42,4 +42,10 @@ D P-MOSFET
 K P-MOSFET
 $ENDCMP
 #
+$CMP TPS3823
+D Stabilizator LDO 3.3V
+K Regulator 3.3V LDO
+F datasheet/mcp1755_s.pdf
+$ENDCMP
+#
 #End Doc Library
