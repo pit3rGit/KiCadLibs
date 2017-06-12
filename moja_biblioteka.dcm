@@ -16,6 +16,15 @@ D Connector, single row, 01x08, pin header
 K connector
 $ENDCMP
 #
+$CMP LED
+D Dioda LED
+K led dioda
+$ENDCMP
+#
+$CMP M+3.3V
+K 3.3V 3V3 pwr
+$ENDCMP
+#
 $CMP MBRB2535CTLT4G
 D Dual schottky diode, common cathode
 K diode
