@@ -16,6 +16,11 @@ D Connector, single row, 01x08, pin header
 K connector
 $ENDCMP
 #
+$CMP IRLML6401
+D P-MOSFET
+K P-MOSFET
+$ENDCMP
+#
 $CMP LED
 D Dioda LED
 K led dioda
