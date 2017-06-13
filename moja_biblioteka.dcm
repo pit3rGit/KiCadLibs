@@ -6,9 +6,20 @@ K Latch, zatrzask, 74
 F datasheet/74LVX373M.pdf
 $ENDCMP
 #
+$CMP BSS138
+D N-MOSFET
+K N-MOSFET
+$ENDCMP
+#
 $CMP DHT22
 D Czujnik tempaertury i wilgotności 1-wire DHT22
 K DHT22, temp, RH
+$ENDCMP
+#
+$CMP FDV304P
+D P-MOSFET 3A
+K P-MOSFET
+F datasheet/IRLML6401.pdf
 $ENDCMP
 #
 $CMP GNIAZDO_MODULU_X
@@ -53,8 +64,9 @@ K N-MOSFET
 $ENDCMP
 #
 $CMP P-MOSFET
-D P-MOSFET
+D P-MOSFET 3A
 K P-MOSFET
+F datasheet/IRLML6401.pdf
 $ENDCMP
 #
 $CMP TPS3823
