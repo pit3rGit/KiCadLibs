@@ -16,6 +16,17 @@ D Czujnik tempaertury i wilgotności 1-wire DHT22
 K DHT22, temp, RH
 $ENDCMP
 #
+$CMP DS3231MZ
+D Konwerter USART na RS-485 half duplex
+K RS-485 half duplex
+$ENDCMP
+#
+$CMP FDV304P
+D P-MOSFET 3A
+K P-MOSFET
+F datasheet/IRLML6401.pdf
+$ENDCMP
+#
 $CMP GNIAZDO_MODULU_X
 D Connector, single row, 01x08, pin header
 K connector
@@ -58,8 +69,9 @@ K N-MOSFET
 $ENDCMP
 #
 $CMP P-MOSFET
-D P-MOSFET
+D P-MOSFET 3A
 K P-MOSFET
+F datasheet/IRLML6401.pdf
 $ENDCMP
 #
 $CMP TPS3823
