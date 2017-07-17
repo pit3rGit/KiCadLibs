@@ -32,6 +32,11 @@ D Connector, single row, 01x08, pin header
 K connector
 $ENDCMP
 #
+$CMP HSP2_MX-502584-0670
+D Connector, single row, 01x08, pin header
+K connector
+$ENDCMP
+#
 $CMP IRLML6401
 D P-MOSFET 3A
 K P-MOSFET
