@@ -84,7 +84,7 @@ F datasheet/IRLML6401.pdf
 $ENDCMP
 #
 $CMP STM32L051R8
-D low power
+D ARM STM32 low power
 K STM32
 F datasheet/STM32L051R8-956268.pdf
 $ENDCMP
