@@ -6,6 +6,10 @@ K Latch, zatrzask, 74
 F datasheet/74LVX373M.pdf
 $ENDCMP
 #
+$CMP AT45DB161E-SSHD-T
+D FLASH
+$ENDCMP
+#
 $CMP BSS138
 D N-MOSFET
 K N-MOSFET
