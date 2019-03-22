@@ -25,6 +25,12 @@ D Konwerter USART na RS-485 half duplex
 K RS-485 half duplex
 $ENDCMP
 #
+$CMP FDN342P
+D P-MOSFET 2A
+K P-MOSFET
+F datasheet/FDN342P.pdf
+$ENDCMP
+#
 $CMP FDV304P
 D P-MOSFET 3A
 K P-MOSFET
@@ -52,12 +58,26 @@ D Dioda LED
 K led dioda
 $ENDCMP
 #
+$CMP LT1789-1
+D Wzmacniacz pomiarowy, RtR, k=1-1000, SO-8
+K Wzmacniacz pomiarowy, OpAmp
+F http://www.ti.com/lit/ds/symlink/ina326.pdf
+$ENDCMP
+#
 $CMP M+3.3V
 K 3.3V 3V3 pwr
 $ENDCMP
 #
 $CMP M+3.3VSTM
 K 3.3V 3V3 pwr
+$ENDCMP
+#
+$CMP M+5V
+K VRS
+$ENDCMP
+#
+$CMP M+VRS
+K VRS
 $ENDCMP
 #
 $CMP MBRB2535CTLT4G
@@ -71,9 +91,19 @@ K Regulator 3.3V LDO
 F datasheet/mcp1755_s.pdf
 $ENDCMP
 #
+$CMP MCP1755T-5002E/DC
+D Stabilizator LDO 3.3V
+K Regulator 3.3V LDO
+F datasheet/mcp1755_s.pdf
+$ENDCMP
+#
 $CMP MIC29302
 D Stabilizator LDO 3.3V
 K Regulator ADJ, LDO, 3A
+$ENDCMP
+#
+$CMP MVADC
+K VADC
 $ENDCMP
 #
 $CMP N-MOSFET
